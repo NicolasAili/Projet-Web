@@ -1,0 +1,40 @@
+footer
+{
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  margin-top: 50px;
+  background-color: #ADB6C4;
+  color: blue;
+  font-size: .7em;
+}
+
+.main
+{
+	display: flex;
+	flex-direction: row;
+	border: 15px solid blue;
+}
+
+.ajouts, .prochainement
+{
+	width: 50%;
+	text-align: center;
+	border: 2px solid green;
+}
+
+.all
+{
+	margin-left: 20%;
+	margin-top: 8%;
+}
+
+footer
+{
+	width: 100%;
+}
+
+.map
+{
+	margin-top: 50px;
+}
