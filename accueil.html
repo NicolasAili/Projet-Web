@@ -37,6 +37,7 @@
 					<li><a href=".\sources.html">Sources</a></li>
 				</ul>
 			</nav>
+			<div class="submain">
 				<div class="ajouts">
 					derniers concerts ajout&acute;s
 					<ul>
@@ -48,14 +49,24 @@
 				<div class="prochainement">
 					prochainement
 					<ul>
-						<li> un </li>
-						<li> deux </li>
-						<li> trois </li>
+						<li><img src="image/concert1.jpg" alt="" width="100%" height="300" /></li>
+            			<li><img src="image/concert2.jpeg" alt="" width="100%" height="300" /></li>
+             			<li><img src="image/concert3.jpg" alt="" width="100%" height="300" /></li> 
 					</ul>
+					<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+					<script type="text/javascript">
+   						$(function(){
+      						setInterval(function(){
+        						 $(".slideshow ul").animate({marginLeft:-350},800,function(){
+            						$(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));})}, 3500);
+   									});
+					</script>
 				</div>
-		</div>	
-		<div class="map">
-			<iframe width=100% height="576" src="https://maphub.net/embed/108114?legend=1&panel=1&panel_closed=1" frameborder="0"></iframe>
+				<div class="map">
+					<!--<iframe width=100% height="576" src="https://maphub.net/embed/108114?legend=1&panel=1&panel_closed=1" frameborder="0"></iframe>-->
+					salut biloute
+				</div>
+			</div>
 		</div>
 		<footer>
 			Un bug? Une question? Une id&eacute;e d'am&eacute;lioration? <br /> <br/>

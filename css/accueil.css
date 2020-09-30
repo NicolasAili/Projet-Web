@@ -93,9 +93,34 @@ footer
 	//* margin-left: 20%; *//
 }
 
+.submain
+{
+	flex-direction: column;
+	width: 100%;
+}
+
+.prochainement
+{
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+.prochainement ul {
+    /* 4 images donc 4 x 100% */
+   width: 400%;
+   /*height: 300px;*/
+   padding:0; margin:0;
+   list-style: none;
+}
+
+.prochainement li 
+{
+   float: left;
+}
+
 .ajouts, .prochainement
 {
-	width: 50%;
+
+	width: 100%;
 	text-align: center;
 	border: 2px solid black;
 }
