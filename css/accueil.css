@@ -149,3 +149,10 @@ footer
 {
 	margin-top: 50px;
 }
+
+.form {
+	padding-left: 20%;
+	padding-top:20%;
+    display: table;
+}
+}
