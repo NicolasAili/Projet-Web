@@ -54,7 +54,7 @@ a:link
 }
 .index  {
   height: 100%; 
-  width: 160px; 
+  width: 15%; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
@@ -111,7 +111,8 @@ footer
 .submain
 {
 	flex-direction: column;
-	width: 100%;
+	width: 85%;
+	margin-left: 15%;
 }
 
 .prochainement
@@ -121,7 +122,7 @@ footer
 }
 .prochainement ul {
     /* 4 images donc 4 x 100% */
-   width: 400%;
+  
    /*height: 300px;*/
    padding:0; margin:0;
    list-style: none;
