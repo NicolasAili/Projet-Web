@@ -6,11 +6,12 @@
 	height: 75px;
 }
 .recherche {
-	padding-left: 2%;
-	display: flex;
-	width: 100%;
+	top: 0%;
+  	width: 100%;
+  	display: flex;
 	position: fixed;
 	background-color: #ee7164; 
+	z-index: 2;
 }
 
 .bouton {
@@ -67,6 +68,7 @@ a:link
 
 li {
 	list-style: none; 
+	width: 100%;
 }
 
 ul li a 
@@ -120,22 +122,60 @@ footer
    overflow: hidden;
    border: 3px solid #F2F2F2;
 }
-.prochainement ul {
-    /* 4 images donc 4 x 100% */
-  
-   /*height: 300px;*/
+
+.txtpro
+{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: grey;
+	text-decoration-color: red;
+	border: 4px solid #FFF;
+	border-radius: 3px;
+	z-index: 1;
+}
+.prochainement 
+{
    padding:0; margin:0;
-   list-style: none;
+   display: flex;
+   animation: slide 10.5s ease infinite 0s;
+   width: 300%;
 }
 
-.prochainement li 
-{
-   float: left;
+ul {
+    margin-top: 0;
+    list-style-image: url(data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=);
 }
 
-.ajouts, .prochainement
+@keyframes slide
 {
+ 0%, 23.81%, 100% {
+    transform: translate(0,0);
+  }
+  33.33%, 57.14% {
+    transform: translate(-33.33%,0);
+  }
+  66.67%, 90.48% {
+    transform: translate(-66.67%,0);
+  }
+}
 
+.cadrepos
+{
+position: relative;
+width: 100%;
+margin: 0 50%;
+border: 12px solid #FFF;
+overflow: hidden;
+/*box-shadow: 1px 1px 20px #888;*/
+border-radius: 5px;
+max-width: 100%;
+box-sizing: border-box;
+margin: 0 auto; 
+}
+
+.ajouts, 
+{
 	width: 100%;
 	text-align: center;
 	border: 2px solid black;
@@ -149,4 +189,15 @@ footer
 .map
 {
 	margin-top: 50px;
+}
+
+.imgli
+{
+	width: 100%;
+	opacity: 1;
+}
+
+html
+{
+	height: 400%;
 }

@@ -40,12 +40,12 @@ html
 position: relative;
 width: 400px;
 margin: 0 5em;
-border: 6px solid #FFF;
+border: 12px solid #FFF;
 overflow: hidden;
-box-shadow: 1px 1px 20px #888;
+/*box-shadow: 1px 1px 20px #888;*/
 border-radius: 5px;
 max-width: 100%;
 box-sizing: border-box;
-margin: 0 auto;
+margin: 0 auto; 
 }
 
