@@ -18,16 +18,17 @@
 	height: 75px;
 }
 
-.bouton {
-	height: 40px;
-	margin-top:3%;
+.searchbutton
+{
+	margin-top: 15px;
+	height:41px;
 }
 
 .champ {
 	 margin-left: 5%;
 	 width: 50%;
-	 height: 35px;
-	 margin-top: 3%;
+	 height: 50%;
+	 margin-top: 15px;
 }
 
 .button {
