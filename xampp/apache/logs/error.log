@@ -1,0 +1,227 @@
+[Wed Jun 03 11:21:04.753916 2020] [ssl:warn] [pid 10780:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:21:04.787827 2020] [ssl:warn] [pid 10780:tid 648] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:21:04.812730 2020] [mpm_winnt:notice] [pid 10780:tid 648] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Wed Jun 03 11:21:04.812730 2020] [mpm_winnt:notice] [pid 10780:tid 648] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Wed Jun 03 11:21:04.812730 2020] [core:notice] [pid 10780:tid 648] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jun 03 11:21:04.814724 2020] [mpm_winnt:notice] [pid 10780:tid 648] AH00418: Parent: Created child process 3812
+[Wed Jun 03 11:21:05.124924 2020] [ssl:warn] [pid 3812:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:21:05.154847 2020] [ssl:warn] [pid 3812:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 03 11:21:05.172768 2020] [mpm_winnt:notice] [pid 3812:tid 652] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 01 12:31:47.091527 2020] [ssl:warn] [pid 18576:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 12:31:47.128233 2020] [ssl:warn] [pid 18576:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 12:31:47.320528 2020] [mpm_winnt:notice] [pid 18576:tid 652] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Wed Jul 01 12:31:47.320528 2020] [mpm_winnt:notice] [pid 18576:tid 652] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Wed Jul 01 12:31:47.320528 2020] [core:notice] [pid 18576:tid 652] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Jul 01 12:31:47.323549 2020] [mpm_winnt:notice] [pid 18576:tid 652] AH00418: Parent: Created child process 25300
+[Wed Jul 01 12:31:47.742337 2020] [ssl:warn] [pid 25300:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 12:31:47.775254 2020] [ssl:warn] [pid 25300:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jul 01 12:31:47.796170 2020] [mpm_winnt:notice] [pid 25300:tid 660] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 08 09:30:18.937766 2020] [ssl:warn] [pid 1664:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 09:30:18.973670 2020] [core:warn] [pid 1664:tid 656] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 08 09:30:18.977660 2020] [ssl:warn] [pid 1664:tid 656] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 09:30:19.163058 2020] [mpm_winnt:notice] [pid 1664:tid 656] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Thu Oct 08 09:30:19.163058 2020] [mpm_winnt:notice] [pid 1664:tid 656] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Thu Oct 08 09:30:19.163058 2020] [core:notice] [pid 1664:tid 656] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 08 09:30:19.166049 2020] [mpm_winnt:notice] [pid 1664:tid 656] AH00418: Parent: Created child process 6832
+[Thu Oct 08 09:30:19.595246 2020] [ssl:warn] [pid 6832:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 09:30:19.630170 2020] [ssl:warn] [pid 6832:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 09:30:19.651180 2020] [mpm_winnt:notice] [pid 6832:tid 660] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 08 10:46:00.537386 2020] [php7:warn] [pid 6832:tid 1904] [client ::1:55262] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\ajouts.php on line 15
+[Thu Oct 08 10:46:00.537386 2020] [php7:warn] [pid 6832:tid 1904] [client ::1:55262] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\ajouts.php on line 15
+[Thu Oct 08 10:51:10.862459 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55403] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:51:10.863456 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55403] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:51:53.576793 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55405] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:51:53.577828 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55405] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:51:59.714401 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55405] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:51:59.714401 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55405] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:16.940882 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55438] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:16.940882 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55438] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:48.405301 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55439] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:48.405301 2020] [php7:warn] [pid 6832:tid 1900] [client ::1:55439] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:51.185476 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55440] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 10:56:51.185476 2020] [php7:warn] [pid 6832:tid 1928] [client ::1:55440] PHP Warning:  mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: H\xef\xbf\xbdte inconnu.  in C:\\xampp\\htdocs\\test\\ajouts.php on line 15
+[Thu Oct 08 11:05:32.755404 2020] [ssl:warn] [pid 13888:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 11:05:32.787290 2020] [core:warn] [pid 13888:tid 652] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 08 11:05:32.791308 2020] [ssl:warn] [pid 13888:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 11:05:32.811539 2020] [mpm_winnt:notice] [pid 13888:tid 652] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Thu Oct 08 11:05:32.811539 2020] [mpm_winnt:notice] [pid 13888:tid 652] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Thu Oct 08 11:05:32.811539 2020] [core:notice] [pid 13888:tid 652] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 08 11:05:32.814539 2020] [mpm_winnt:notice] [pid 13888:tid 652] AH00418: Parent: Created child process 10728
+[Thu Oct 08 11:05:33.240804 2020] [ssl:warn] [pid 10728:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 11:05:33.274713 2020] [ssl:warn] [pid 10728:tid 664] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 08 11:05:33.294631 2020] [mpm_winnt:notice] [pid 10728:tid 664] AH00354: Child: Starting 150 worker threads.
+[Thu Oct 08 11:33:35.314279 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53301] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:34:10.089292 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53307] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:34:11.047946 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53308] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:15.822893 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53313] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:16.606832 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53313] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:18.374989 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53313] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:46.127257 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53314] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:46.909883 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53314] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:35:47.574477 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53314] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 23
+[Thu Oct 08 11:41:47.438285 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53357] PHP Parse error:  syntax error, unexpected end of file in C:\\xampp\\htdocs\\test\\index.php on line 80
+[Thu Oct 08 11:41:48.284522 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53358] PHP Parse error:  syntax error, unexpected end of file in C:\\xampp\\htdocs\\test\\index.php on line 80
+[Thu Oct 08 11:42:06.012885 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53359] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 50
+[Thu Oct 08 11:42:06.508473 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53359] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 50
+[Thu Oct 08 11:42:35.485207 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53360] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 52
+[Thu Oct 08 11:42:36.164763 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53360] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 52
+[Thu Oct 08 11:42:46.780962 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53365] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 52
+[Thu Oct 08 11:42:47.420609 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53365] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 52
+[Thu Oct 08 11:42:47.892747 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53365] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 52
+[Thu Oct 08 11:46:12.187026 2020] [php7:notice] [pid 10728:tid 1916] [client ::1:53431] PHP Notice:  Undefined variable: sql in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:46:12.187763 2020] [php7:error] [pid 10728:tid 1916] [client ::1:53431] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\xampp\\htdocs\\test\\index.php:33\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:46:12.998107 2020] [php7:notice] [pid 10728:tid 1916] [client ::1:53431] PHP Notice:  Undefined variable: sql in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:46:12.998107 2020] [php7:error] [pid 10728:tid 1916] [client ::1:53431] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\xampp\\htdocs\\test\\index.php:33\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:46:13.654657 2020] [php7:notice] [pid 10728:tid 1916] [client ::1:53431] PHP Notice:  Undefined variable: sql in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:46:13.654657 2020] [php7:error] [pid 10728:tid 1916] [client ::1:53431] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\\xampp\\htdocs\\test\\index.php:33\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\test\\index.php on line 33
+[Thu Oct 08 11:54:55.036811 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53633] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Thu Oct 08 11:54:56.044643 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53634] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ';' or ',' in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Thu Oct 08 11:57:55.013783 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53649] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:57:55.711509 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53653] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:57:55.912047 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53653] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:58:35.773802 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53667] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:58:36.501339 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53668] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:58:36.756803 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53668] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:58:36.980975 2020] [php7:error] [pid 10728:tid 1944] [client ::1:53668] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 27
+[Thu Oct 08 11:59:47.374139 2020] [php7:error] [pid 10728:tid 1944] [client ::1:51891] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Thu Oct 08 11:59:47.990176 2020] [php7:error] [pid 10728:tid 1944] [client ::1:51892] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING) in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Thu Oct 08 12:00:04.973441 2020] [php7:error] [pid 10728:tid 1944] [client ::1:51893] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Thu Oct 08 12:00:16.389123 2020] [php7:error] [pid 10728:tid 1944] [client ::1:51894] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Mon Oct 12 13:35:10.840932 2020] [ssl:warn] [pid 6020:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 13:35:10.877606 2020] [core:warn] [pid 6020:tid 624] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 12 13:35:10.881594 2020] [ssl:warn] [pid 6020:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 13:35:10.904534 2020] [mpm_winnt:notice] [pid 6020:tid 624] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Mon Oct 12 13:35:10.904534 2020] [mpm_winnt:notice] [pid 6020:tid 624] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Oct 12 13:35:10.904534 2020] [core:notice] [pid 6020:tid 624] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 12 13:35:10.906497 2020] [mpm_winnt:notice] [pid 6020:tid 624] AH00418: Parent: Created child process 5792
+[Mon Oct 12 13:35:11.263643 2020] [ssl:warn] [pid 5792:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 13:35:11.295558 2020] [ssl:warn] [pid 5792:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 12 13:35:11.315505 2020] [mpm_winnt:notice] [pid 5792:tid 636] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 12 13:36:44.549203 2020] [php7:error] [pid 5792:tid 1884] [client ::1:50321] PHP Parse error:  syntax error, unexpected '"' in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Mon Oct 12 13:37:10.183649 2020] [php7:error] [pid 5792:tid 1884] [client ::1:50326] PHP Parse error:  syntax error, unexpected '"' in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Mon Oct 12 13:41:07.894257 2020] [php7:error] [pid 5792:tid 1900] [client ::1:50947] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\test\\index.php on line 30
+[Mon Oct 12 13:41:30.068408 2020] [php7:error] [pid 5792:tid 1900] [client ::1:51005] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\index.php on line 30
+[Mon Oct 12 13:45:03.237741 2020] [php7:warn] [pid 5792:tid 1900] [client ::1:63262] PHP Warning:  main(): Couldn't fetch mysqli_result in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 13:45:03.949675 2020] [php7:warn] [pid 5792:tid 1900] [client ::1:63264] PHP Warning:  main(): Couldn't fetch mysqli_result in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 13:45:57.930880 2020] [php7:error] [pid 5792:tid 1900] [client ::1:63290] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\\xampp\\htdocs\\index.php on line 47
+[Mon Oct 12 13:45:58.578315 2020] [php7:error] [pid 5792:tid 1900] [client ::1:63290] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\\xampp\\htdocs\\index.php on line 47
+[Mon Oct 12 13:48:36.044008 2020] [php7:error] [pid 5792:tid 1900] [client ::1:63328] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\\xampp\\htdocs\\index.php on line 47
+[Mon Oct 12 13:48:37.085709 2020] [php7:error] [pid 5792:tid 1900] [client ::1:63328] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\\xampp\\htdocs\\index.php on line 47
+[Mon Oct 12 13:48:41.710033 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:63328] PHP Notice:  Undefined variable: pays in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:48:41.710033 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:63328] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:48:41.710033 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:63328] PHP Notice:  Undefined variable: pays in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:48:41.710033 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:63328] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:50:44.153640 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61879] PHP Notice:  Undefined variable: pays in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:50:44.153640 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61879] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:50:44.839217 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61881] PHP Notice:  Undefined variable: pays in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:50:44.839217 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61881] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:52:01.152995 2020] [php7:error] [pid 5792:tid 1900] [client ::1:61910] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in C:\\xampp\\htdocs\\index.php:42\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:52:14.351131 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61915] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:52:51.752719 2020] [php7:error] [pid 5792:tid 1900] [client ::1:61921] PHP Parse error:  syntax error, unexpected '.' in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:52:52.312231 2020] [php7:error] [pid 5792:tid 1900] [client ::1:61921] PHP Parse error:  syntax error, unexpected '.' in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:53:09.338132 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61923] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:54:47.467280 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61933] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:55:39.051663 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61943] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:55:39.691011 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61943] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:56:48.062882 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61947] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:58:16.823596 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61988] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:58:25.644822 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61990] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:58:26.254172 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61990] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:58:37.670383 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61993] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:59:08.735299 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61995] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 42
+[Mon Oct 12 13:59:45.046970 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:61999] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 13:59:45.661393 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62001] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 13:59:49.069437 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62001] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 14:00:05.702094 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62005] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 43
+[Mon Oct 12 14:03:04.695786 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62037] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:04:58.630565 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62254] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in C:\\xampp\\htdocs\\index.php:44\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:04:59.221221 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62256] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in C:\\xampp\\htdocs\\index.php:44\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:05:23.382994 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62274] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:15.221322 2020] [php7:notice] [pid 5792:tid 1884] [client ::1:62284] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:16.029639 2020] [php7:notice] [pid 5792:tid 1884] [client ::1:62284] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:27.726173 2020] [php7:notice] [pid 5792:tid 1884] [client ::1:62288] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:46.996931 2020] [php7:notice] [pid 5792:tid 1884] [client ::1:62290] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:47.677085 2020] [php7:notice] [pid 5792:tid 1884] [client ::1:62292] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:06:59.890708 2020] [php7:error] [pid 5792:tid 1884] [client ::1:62303] PHP Parse error:  syntax error, unexpected '.' in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:07:00.603119 2020] [php7:error] [pid 5792:tid 1884] [client ::1:62304] PHP Parse error:  syntax error, unexpected '.' in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:07:09.820062 2020] [php7:error] [pid 5792:tid 1880] [client ::1:62320] PHP Parse error:  syntax error, unexpected '.' in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:07:14.671528 2020] [php7:notice] [pid 5792:tid 1880] [client ::1:62321] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:08:39.875753 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62342] PHP Parse error:  syntax error, unexpected '?>\r' in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:08:40.833435 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62347] PHP Parse error:  syntax error, unexpected '?>\r' in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:09:18.104027 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62349] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:09:18.744481 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62351] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:09:32.307911 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62354] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\index.php on line 32
+[Mon Oct 12 14:09:40.454558 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62355] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 44
+[Mon Oct 12 14:09:58.519383 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62357] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 45
+[Mon Oct 12 14:18:58.243624 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62522] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 45
+[Mon Oct 12 14:23:22.838887 2020] [php7:error] [pid 5792:tid 1900] [client ::1:62560] PHP Parse error:  syntax error, unexpected 'pays' (T_STRING), expecting ';' or ',' in C:\\xampp\\htdocs\\index.php on line 37
+[Mon Oct 12 14:24:00.962413 2020] [php7:notice] [pid 5792:tid 1900] [client ::1:62562] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 59
+[Mon Oct 19 13:38:16.509176 2020] [ssl:warn] [pid 2824:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:38:16.543085 2020] [core:warn] [pid 2824:tid 636] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 19 13:38:16.547075 2020] [ssl:warn] [pid 2824:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:38:16.751498 2020] [mpm_winnt:notice] [pid 2824:tid 636] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Mon Oct 19 13:38:16.751498 2020] [mpm_winnt:notice] [pid 2824:tid 636] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Oct 19 13:38:16.751498 2020] [core:notice] [pid 2824:tid 636] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Oct 19 13:38:16.753493 2020] [mpm_winnt:notice] [pid 2824:tid 636] AH00418: Parent: Created child process 8684
+[Mon Oct 19 13:38:17.098572 2020] [ssl:warn] [pid 8684:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:38:17.132491 2020] [ssl:warn] [pid 8684:tid 176] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 19 13:38:17.153425 2020] [mpm_winnt:notice] [pid 8684:tid 176] AH00354: Child: Starting 150 worker threads.
+[Mon Oct 19 13:42:52.343992 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/
+[Mon Oct 19 13:42:52.343992 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/
+[Mon Oct 19 13:42:52.999707 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/
+[Mon Oct 19 13:42:52.999707 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/
+[Mon Oct 19 13:42:55.782040 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:42:55.782040 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:42:56.444612 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:42:56.444612 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56121] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:02.817203 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:02.817203 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:03.534417 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:03.535169 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:05.497299 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:05.497299 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:07.171646 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:43:07.172364 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56126] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:44:42.539276 2020] [php7:error] [pid 8684:tid 1896] [client ::1:56140] PHP Parse error:  syntax error, unexpected 'bonjour' (T_STRING), expecting ';' or ',' in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:44:43.224634 2020] [php7:error] [pid 8684:tid 1896] [client ::1:56140] PHP Parse error:  syntax error, unexpected 'bonjour' (T_STRING), expecting ';' or ',' in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:44:54.727333 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56145] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:44:54.728079 2020] [php7:notice] [pid 8684:tid 1896] [client ::1:56145] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 60, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:29.610637 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:29.610637 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:30.249474 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:30.249474 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:32.245085 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:32.245085 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:33.582433 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:33.582433 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:34.576058 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:34.576058 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:35.397546 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:35.397546 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:38.237255 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:38.237255 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:40.343174 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:48:40.343174 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:48:42.670887 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Espagne
+[Mon Oct 19 13:48:42.670887 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64883] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Espagne
+[Mon Oct 19 13:48:48.254558 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64893] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:48:48.254558 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64893] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=Italie
+[Mon Oct 19 13:48:48.701735 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64893] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:48:48.702732 2020] [php7:notice] [pid 8684:tid 1880] [client ::1:64893] PHP Notice:  Trying to access array offset on value of type null in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:52:21.870337 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63455] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 61, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:52:22.500231 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63455] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 61, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:52:23.212409 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63455] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 61, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:53:50.562309 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63518] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:53:51.642310 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63518] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:53:52.368549 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63518] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Mon Oct 19 13:53:52.928398 2020] [php7:error] [pid 8684:tid 1864] [client ::1:63518] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\index.php on line 62, referer: http://localhost/index.php?pays=France
+[Thu Oct 22 08:36:53.442477 2020] [ssl:warn] [pid 4872:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 22 08:36:53.476415 2020] [core:warn] [pid 4872:tid 532] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 22 08:36:53.480430 2020] [ssl:warn] [pid 4872:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 22 08:36:53.681844 2020] [mpm_winnt:notice] [pid 4872:tid 532] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 configured -- resuming normal operations
+[Thu Oct 22 08:36:53.681844 2020] [mpm_winnt:notice] [pid 4872:tid 532] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Thu Oct 22 08:36:53.681844 2020] [core:notice] [pid 4872:tid 532] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 22 08:36:53.682841 2020] [mpm_winnt:notice] [pid 4872:tid 532] AH00418: Parent: Created child process 11116
+[Thu Oct 22 08:36:54.014982 2020] [ssl:warn] [pid 11116:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 22 08:36:54.048411 2020] [ssl:warn] [pid 11116:tid 636] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 22 08:36:54.069324 2020] [mpm_winnt:notice] [pid 11116:tid 636] AH00354: Child: Starting 150 worker threads.
