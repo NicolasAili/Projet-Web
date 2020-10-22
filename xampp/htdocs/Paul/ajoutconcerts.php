@@ -4,10 +4,25 @@
 			<title>Test PHP</title>
 			<meta charset="utf-8">
 			<link rel="stylesheet" href="">
+			<titleC></title>
+			<meta name="Author" content="BUSQUET_TOURNU" />
+			<meta name="Keywords" content="ConcertAll" />
+			<meta name="Description" content="Ajout Concerts" />
 		</head>
+
 		<body>
-		        <h1>Bases de données MySQL</h1>  
-<!-- BDD connect -->
+			    <h1>Ajouter un concert</h1>  
+
+
+				<form action="" method="get" class="form-example">
+  				<div class="form">
+	  			 	<label for="name">Entrer le nom de l'artiste: </label> 
+	    			<input type="text" name="artiste" id="name" required>
+	    			<br>
+	  			 	<label for="name">Entrer la date du concert: </label>
+	    			<input type="date"  required>
+	    			<br>
+	<!-- BDD connect -->
 		        <?php
 		            $servername = 'localhost';
 		            $username = 'root';
@@ -85,7 +100,7 @@
 					mysqli_free_result($result);
 					mysqli_close($con);
 		        ?>
-		        
+		        </div>
 
 		</body>
 </html> 
