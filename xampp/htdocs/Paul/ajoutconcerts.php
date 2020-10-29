@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 		<head>
-			<title>Test PHP</title>
+			<title>Ajouter Concert</title>
 			<meta charset="utf-8">
 			<link rel="stylesheet" href="">
 			<titleC></title>
 			<meta name="Author" content="BUSQUET_TOURNU" />
 			<meta name="Keywords" content="ConcertAll" />
-			<meta name="Description" content="Ajout Concerts" />
+			<meta name="Description" content="Ajouts Concerts" />
 		</head>
 
 		<body>
