@@ -1,0 +1,14 @@
+window.alert("salut");
+
+var  intElemScrollTop = element.scrollTop;
+
+while(1)
+{
+   document.write(intElemScrollTop);
+}
+
+
+function changevisibility(scroll_pos)
+{
+
+}
