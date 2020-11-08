@@ -9,7 +9,7 @@
 		<meta name="Author" content="BUSQUET_TOURNU" />
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="page d'acceuil" />
-		<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />	-->
+		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>

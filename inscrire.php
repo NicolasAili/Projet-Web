@@ -6,7 +6,8 @@
 				<meta name="Author" content="BUSQUET_TOURNU" />
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="Inscription" />
-				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />
+				<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
+				<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
 				<?php include("ident.php"); // on appelle le fichier?>
 	</head>
 	<header>

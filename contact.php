@@ -6,7 +6,8 @@
 				<meta name="Author" content="BUSQUET_TOURNU" />
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="Contact" />
-				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />
+				<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
+				<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
