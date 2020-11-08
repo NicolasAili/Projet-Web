@@ -1,9 +1,37 @@
 body
 {
+	height: 5000px;
 	margin: 0;
 	background-color: #DBCDC6;
+	
+}
+
+#debug
+{
+	position: fixed;
+	top: 300px;
+	left: 700px;
+	border: 5px solid black;
+	font-size: 2em;
+}
+
+#debugx
+{
+	position: fixed;
+	top: 300px;
+	left: 1200px;
+	border: 5px solid black;
+	font-size: 2em;
+}
+
+
+#all
+{
+	width: 500px;
+	border: 10px solid black;
 	height: 5000px;
 }
+
 .test
 {
 	font-size: 2em;
@@ -20,8 +48,8 @@ body
 	height: 100%;
 }
 
-.recherche {
-	visibility: hidden;
+#recherche {
+	visibility: visible;
 	display: flex;
 	top: 0%;
 	left: 0;
@@ -151,13 +179,19 @@ body
 .space, .inscription
 {
 	background-color: #270000;
-	color: #fff;
 }
 
-.inscrlink, .spacelink, .contact
+.inscrlink, .spacelink
 {
 	text-decoration: none;
+	color: white;
 }
+.contact
+{
+	color: black;
+	text-decoration: none;
+}
+
 
 .inscrlink:visited, .spacelink:visited
 {
@@ -167,19 +201,16 @@ body
 .space:hover, .inscription:hover
 {
 	background-color: #3c0808;
-	text-decoration: underline;
 }
 
 .contactimg
 {
-	color: black;
 	background-color: #DBCDC6;
 }
 
 .contactimg:hover
 {
 	background-color: #eae1dc;
-	text-decoration: underline;
 }
 
 .imgbulle
@@ -282,7 +313,7 @@ body
 	height: 75px;
 }
 
-.recherche-hidden
+#recherche-hidden
 {
 	visibility: hidden;
 	display: flex;
