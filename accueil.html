@@ -7,6 +7,21 @@
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="page d'acceuil" />
 				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />	-->
+
+				<style>
+#mydiv {
+  height: 250px;
+  width: 250px;
+  margin-top: 0px;
+  overflow: auto;
+}
+
+#content {
+  height: 800px;
+  width: 2000px;
+  background-color: coral;
+}
+</style>
 </head>
 			<header>
 						<div id="recherche">
@@ -19,10 +34,6 @@
 										<input class="champ" type="recherche" placeholder="Artistes,Salles,Villes,Concerts,...">
 										<input class="o-search-submit" value=" " type="submit">
 									</div>
-									<?php 
-										if (isset($_SESSION['pseudo']) == null)
-								 		{
-									?>
 									<div class="identification">
 										<div class="ajoutconcert">
 											<img src="./image/concert.png" class="imgconcert">
@@ -41,13 +52,11 @@
 											</div>
 											<div class=contactimg>
 												<img src="./image/bulle.png" class="imgbulle">
-												<a href="./contact.html" class="contact" role="button">Contact</a>
+												<a href="./contact.php" class="contact" role="button">Contact</a>
 											</div>
 										</div>
 									</div>
-
 								</div>
-
 								<div class="lowernav">
 									<a href=".\artistes.html" class="liun">Fonctionnement du site</a>	
 									<a href=".\artistes.html" class="lideux">Artistes</a>
