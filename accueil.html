@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
+<body>
 	<head>
 		<meta charset="UTF-8" />
-				<titleC></title>
+				<title></title>
 				<meta name="Author" content="BUSQUET_TOURNU" />
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="page d'acceuil" />
-				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />
+				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />	-->
+				<style>
+#myDIV {
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+}
+
+#content {
+  height: 800px;
+  width: 2000px;
+  background-color: coral;
+}
+</style>
 	</head>
 	<header>
 				<div class="recherche">
@@ -22,22 +36,22 @@
 							<div class="identification">
 								<div class="ajoutconcert">
 									<img src="./image/concert.png" class="imgconcert">
-									<a href="xampp/htdocs/paul/ajoutconcerts.php" class="button" role="button">Ajouter un concert</a>
+									<a href="./ajoutconcerts.php" class="button" role="button">Ajouter un concert</a>
 								</div>
 								<div class="barre"></div>
 								<div class="memberspace">
 									<div class="space">
 										<img src="./image/cadenas.png" class="imgcadenas">
-										<a href="./" class="spacelink" role="button">Mon espace</a>
+										<a href="./connexion.php" class="spacelink" role="button">Mon espace</a>
 									</div>
 									<div class="inscription">
 										<div class="mv">
 										</div>
-										<a href="./inscrire.html" class="inscrlink" role="button">Inscription </a>
+										<a href="./inscrire.php" class="inscrlink" role="button">Inscription </a>
 									</div>
 									<div class=contactimg>
 										<img src="./image/bulle.png" class="imgbulle">
-										<a href="./" class="contact" role="button">Contact</a>
+										<a href="./contact.php" class="contact" role="button">Contact</a>
 									</div>
 								</div>
 							</div>
@@ -74,12 +88,17 @@
 					</div>
 				</div>
 	</header>
+	
+<div id="myDIV" onscroll="myFunction()">
+  <div id="content">Scroll inside me!</div>
+</div>
 
-	<body>
-		<div class="test">
-		salut
-	</div>
+<p id="demo"></p>
+
+
 	</body>
+
+	
 		<!--
 		<div class="main">
 			<nav class="index">
@@ -120,7 +139,6 @@
 			Un bug? Une question? Une id&eacute;e d'am&eacute;lioration? <br /> <br/>
 			<a href="mailto:Ailiganon@gmail.com">Envoyez-moi un mail !</a>	
 		</footer>
-	</div>
-	</body>-->
-	<script type="text/javascript" src="../js/scrollnav.js"></script> 
+	</div>-->
+	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>

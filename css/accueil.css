@@ -6,10 +6,11 @@ body
 }
 .test
 {
-	font-size: 4em;
+	font-size: 2em;
 	width: 50%;
+	height: 500px;
 	color: black;
-	margin-top: 200px;
+	margin-top: 0px;
 	text-align: center;
 }
 
@@ -20,6 +21,7 @@ body
 }
 
 .recherche {
+	visibility: hidden;
 	display: flex;
 	top: 0%;
 	left: 0;
