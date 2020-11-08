@@ -1,45 +1,13 @@
+html
+{
+background-color: green;
+}
+
 body
 {
 	height: 5000px;
 	margin: 0;
 	background-color: #DBCDC6;
-	
-}
-
-#debug
-{
-	position: fixed;
-	top: 300px;
-	left: 700px;
-	border: 5px solid black;
-	font-size: 2em;
-}
-
-#debugx
-{
-	position: fixed;
-	top: 300px;
-	left: 1200px;
-	border: 5px solid black;
-	font-size: 2em;
-}
-
-
-#all
-{
-	width: 500px;
-	border: 10px solid black;
-	height: 5000px;
-}
-
-.test
-{
-	font-size: 2em;
-	width: 50%;
-	height: 500px;
-	color: black;
-	margin-top: 0px;
-	text-align: center;
 }
 
 .imglogo
@@ -333,25 +301,25 @@ body
 
 .space-hidden
 {
-	margin-left: 330px;
+	margin-left: 0px;
 	background-color: #270000;
 }
 
-.contact-hidden
+.haut-hidden
 {
-
+	background-color: #fff;
 }
 
-.contact-hidden, .space-hidden
+
+.contact-hidden, .space-hidden, .haut-hidden
 {
 	display: flex;
 	align-items: center;
 	float: right;
 	padding: 15px;
-	
 }
 
-.imgcadenas-hidden
+.imgcadenas-hidden, .imgbulle-hidden, .up-hidden
 {
 display: inline-block;
 width: 45px;
@@ -360,15 +328,11 @@ padding: 0;
 margin: 0;
 }
 
-.imgbulle-hidden
+.logos
 {
-display: inline-block;
-width: 45px;
-height: 45px;
-padding: 0;
-margin: 0;
+	display: flex;
+	padding-left: 250px;
 }
-
 
 footer
 {

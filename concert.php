@@ -10,6 +10,9 @@
 			<meta name="Keywords" content="ConcertAll" />
 			<meta name="Description" content="Recap" />
 		</head>
+		<header>
+			<?php include('header.php'); ?>
+		</header>
 
 <?php
 		      
