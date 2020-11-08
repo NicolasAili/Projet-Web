@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+				<titleC></title>
+				<meta name="Author" content="BUSQUET_TOURNU" />
+				<meta name="Keywords" content="ConcertAll" />
+				<meta name="Description" content="Contact" />
+				<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />
+				<div class="recherche">
+					<div class="logo">
+						<img src="./image/logo.png" class="imglogo">
+					</div>
+					<div class="nav">
+						<div class="uppernav">
+							<div class="searchbar">
+								<input class="champ" type="recherche" placeholder="Artistes,Salles,Villes,Concerts,...">
+								<!--<img class="searchbutton"  src="./image/loupe.jpg" type="button">-->
+								<input class="o-search-submit" value=" " type="submit">
+							</div>
+							<div class="identification">
+								<div class="ajoutconcert">
+									<img src="./image/concert.png" class="imgconcert">
+									<a href="./ajoutconcert.php" class="button" role="button">Ajouter un concert</a>
+								</div>
+								<div class="barre"></div>
+								<div class="memberspace">
+									<div class="space">
+										<img src="./image/cadenas.png" class="imgcadenas">
+										<a href="./connexion.php" class="spacelink" role="button">Mon espace</a>
+									</div>
+									<div class="inscription">
+										<div class="mv">
+										</div>
+										<a href="./inscrire.php" class="inscrlink" role="button">Inscription </a>
+									</div>
+									<div class=contactimg>
+										<img src="./image/bulle.png" class="imgbulle">
+										<a href="./contact.html" class="contact" role="button">Contact</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="lowernav">
+							<a href=".\artistes.html" class="liun">Fonctionnement du site</a>	
+							<a href=".\artistes.html" class="lideux">Artistes</a>
+							<a href=".\villes.html" class="litrois">Villes</a>
+							<a href=".\pays.html" class="liquatre">Pays</a>
+							<a href=".\allconcerts.php" class="licinq">Tous les concerts</a>
+							<a href=".\nous.html" class="lisix">Qui sommes-nous ?</a>
+							<a href=".\mention.html" class="lisept">Mentions légales</a>
+						</div>
+					</div>
+				</div>		
+	</head>
+				<header>
+				<h1> Contactez nous ! </h1>
+			</header>
+			<form action="mailto:paul.tournu@orange.fr?subject=Formulaired'appréciation" method="post">
+			<fieldset>
+				<legend>Informations personelles</legend>
+					<p>
+						<label for="Nom">Pseudo </label>
+						<input type="text" name="Nom" id="Nom" size="30" autofocus />
+					</p>
+					<p>
+						<label for="email">Adresse E-mail: </label>
+						<input type="email" name="email" id="email" size="50" required />
+					</p>
+			</fieldset> <br />
+			<fieldset>
+				<legend>Appréciation sur le site Web</legend>
+					<p>
+						Appreciation globale du site: <br />
+						<input type="radio" name="glo" value="Très utile" id="Très_utile" /><label for="Très_utile">Très utile</label>
+						<input type="radio" name="glo" value="Utile" id="Utile" /><label for="Utile">Utile</label>
+						<input type="radio" name="glo" value="Inutile" id="Inutile" /><label for="Inutile">Inutile</label>
+						<br />
+					</p>
+					<p>
+						Ce site vous à t'il aidé à trouver un concert ? <br />
+						<input type="radio" name="glo" value="Oui" id="Oui" /><label for="Oui">oui</label>
+						<input type="radio" name="glo" value="Non" id="Non" /><label for="Non">non</label>
+					</p>
+					<label for="appréciation">Qu'avez-vous le plus apprécié sur le site wab ? </label><br />
+					<select id="appréciation" multiple="multiple" name="appréciation">
+						<option value="contenu">Le contenu informatif</option>
+						<option value="thème">Le thème graphique du site</option>
+						<option value="navigation">la navigation à l'interieur du site </option>
+					</select>
+					<p>
+						<label for="non">Apres avoir donner votre avis sur le site voulez vous ajouter quelques choses?</label><br />
+						<textarea name="commentaire" id="commentaire" cols="40" rows="5"></textarea>
+					</p>
+			</fieldset>
+			<p>	
+				Merci, une appréciation est toujours bonne à prendre <br />
+				<input type="checkbox" id="info" name="info" />
+				<label for="info"> oui, je souhaite recevoir plus d'information sur l'évolution de notre site web'</label>
+			</p>
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Envoyer" />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Effacer" />
+			</p>
+			</form>
+			<hr />
+		</body>
+		<footer>
+			<p>
+				Formulaire d'appreciation
+			</p>
+		</footer>
+	</html>
