@@ -35,7 +35,7 @@ if (isset($_POST['inscription']))
                 mysqli_query($con, $sql);
                 header('Location: ./connexion.php');
             }
-            else{echo'Erreur, l'utilisateur existe deja';}
+            else{echo'Erreur, l\'utilisateur existe deja';}
         }
     else
         {
