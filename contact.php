@@ -2,18 +2,18 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-				<titleC></title>
+				<title>contact</title>
 				<meta name="Author" content="BUSQUET_TOURNU" />
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="Contact" />
-				<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />
+				<link rel="stylesheet" type="text/css" href="css/accueil.css" media="screen" />
+	</head>
 	<header>
 		<?php include('header.php'); ?>
 	</header>	
 	<body>
-			<h1> Contactez nous ! </h1>
-			</header>
-			<form action="mailto:paul.tournu@orange.fr?subject=Formulaired'appréciation" method="post">
+		<h1> Contactez nous ! </h1>
+		<form action="mailto:paul.tournu@orange.fr?subject=Formulaired'appréciation" method="post">
 			<fieldset>
 				<legend>Informations personelles</legend>
 					<p>
@@ -59,12 +59,11 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Envoyer" />
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Effacer" />
 			</p>
-			</form>
-			<hr />
+		</form>
+		<hr />
 	</body>
 	<footer>
-		<p>
-			Formulaire d'appreciation
-		</p>
+		<p>Formulaire d'appreciation</p>
 	</footer>
+	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>

@@ -16,7 +16,6 @@
 	</header>
 	<body>
 	</body>
-	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 		<!--
 		<div class="main">
 			<nav class="index">
@@ -59,4 +58,5 @@
 		</footer>
 	</div>
 	</body>-->
+	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
