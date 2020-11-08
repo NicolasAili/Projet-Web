@@ -17,6 +17,7 @@
 		<?php include('header.php'); ?>
 	</header>
 	<body>
+
 		<h1>Tous les concerts</h1>
 		<?php
 			echo $_SESSION['pseudo'];
@@ -41,24 +42,22 @@
 			$str = "SELECT * FROM concert";
 			$result = mysqli_query($con, $str);
 			$admin = 'administateur';
-			echo $_SESSION['pseudo'];
-			echo $admin;
+
 			while($row = mysqli_fetch_array($result)) {
-				echo $row['artiste'] . "  " . $row['date'] . "  " . $row['heure'] . "  " . $row['pays'] . "  " . $row['ville'] . "  " . $row['salle'] . "  " . $row['adresse'] . "  " . $row['cp'] ;
-				echo "success1";
-				if ($_SESSION['pseudo'] == $admin)
-					 {
+				?> <div id="artiste"> <?php echo $row['artiste']  ?> </div> <?php echo $row['date'] . "  " . $row['heure'] . "  " . $row['pays'] . "  " . $row['ville'] . "  " . $row['salle'] . "  " . $row['adresse'] . "  " . $row['cp'] ; 
+				/*if ($_SESSION['pseudo'] == $admin)
+				{
 					 	echo "success2";
 					 	?>
 							<input  type="submit" value="Supprimer le concert" name="supprimer">
 							</br>
 					 	<?php
-					 }
+				}
 				else
 				{
 					echo "success3";
-				}
-
+				}*/
+				echo "</br>";
 			}
 		?>
 	</body>
