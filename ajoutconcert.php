@@ -18,31 +18,31 @@
 		 <h1>Ajout d'un concert</h1>
 		 <form action="concert.php" method="post" class="connect">
 			<label for="artiste">Nom de l'artisite ou du groupe:  </label> 
-			<input type="text" name="artiste" placeholder="Saisir l'artiste"   id="artiste" >
+			<input type="text" name="artiste" placeholder="Saisir l'artiste"   id="artiste" required>
 			<br>
 			<br>
 			<label for="date">Date:  </label> 
-			<input type="date" name="date" placeholder="Saisir la date du concert " id="date" >
+			<input type="date" name="date" placeholder="Saisir la date du concert " id="date" required>
 			<br>
 			<br>
 			<label for="heure">Heure</label> 
-			<input type="time" name="heure" placeholder="Saisir l'heure du concert" id="heure" >
+			<input type="time" name="heure" placeholder="Saisir l'heure du concert" id="heure" required>
 			<br>
 			<br>
 			<label for="pays">Pays: </label> 
-			<input type="text" name="pays" placeholder="Pays ou a lieu le concert" id="pays" >
+			<input type="text" name="pays" placeholder="Pays ou a lieu le concert" id="pays" required>
 			<br>
 			<label for="ville">Ville: </label> 
-			<input type="text" name="ville" placeholder="Ville ou a lieu le concert" id="ville" >
+			<input type="text" name="ville" placeholder="Ville ou a lieu le concert" id="ville" required>
 			<br>
 			<label for="salle">Salle: </label> 
-			<input type="text" name="salle" placeholder="Salle ou a lieu le concert" id="salle" >
+			<input type="text" name="salle" placeholder="Salle ou a lieu le concert" id="salle" require>
 			<br>
 			<label for="adresse">Adresse: </label> 
-			<input type="text" name="adresse" placeholder="Adresse ou a lieu le concert" id="adresse" >
+			<input type="text" name="adresse" placeholder="Adresse ou a lieu le concert" id="adresse" required>
 			<br>
 			<label for="cp">Code postal: </label> 
-			<input type="text" name="cp" placeholder="Code postal ou a lieu le concert" id="cp" >
+			<input type="text" name="cp" placeholder="Code postal ou a lieu le concert" id="cp" required>
 			<br>
 			<br>
 			<input  type="submit" value="Enregister le concert" name="concert" href="">

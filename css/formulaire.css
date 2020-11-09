@@ -23,6 +23,7 @@ form
   box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.7),
   2px 4px 40px rgba(255, 255, 255, 0.6) inset;
   background-color:#5c0000;
+  color : white;
 }
 
 input 

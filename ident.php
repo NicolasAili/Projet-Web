@@ -12,9 +12,6 @@
     if(mysqli_connect_errno($con)){
     echo "Erreur de connexion" .mysqli_connect_error();
     }
-    else {
-    echo 'Connexion réussie';
-    }
 
 if (isset($_POST['inscription']))
 {
@@ -23,9 +20,6 @@ if (isset($_POST['inscription']))
     $email = $_POST['email'];
     $password = $_POST['password'];
     $cpassword = $_POST['cpassword'];
-
-
-
 
 	if (strcmp($password, $cpassword) == 0)
 	{
