@@ -20,24 +20,16 @@
 			$username = 'root';
 			$password = '';
 			$dbname = 'webbd';
-
 			//Connexion à la BDD
 			$con = mysqli_connect($servername, $username, $password, $dbname);
-
 			//Vérification de la connexion
 			if(mysqli_connect_errno($con))
 			{
 				echo "Erreur de connexion" .mysqli_connect_error();
 			}
-			else 
-			{
-				echo 'Connexion réussie';
-			}
 
 			if (isset($_POST['concert']))
 			{
-				echo "bonjour";
-				echo "<br>";
 				$artiste = $_POST['artiste'];
 				$date = $_POST['date'];
 				$heure = $_POST['heure'];
@@ -46,8 +38,6 @@
 				$salle = $_POST['salle'];
 				$adresse = $_POST['adresse'];
 				$cp = $_POST['cp'];
-
-
 				$sql = "INSERT INTO concert (artiste, date, heure, pays, ville, salle, adresse, cp) VALUES ('$artiste', '$date', '$heure', '$pays', '$ville', '$salle', '$adresse', '$cp')";
 				mysqli_query($con, $sql);
 				?>
