@@ -16,7 +16,7 @@
 		<?php include('header.php'); ?>
 	</header>
 	<body>
-		<h1> Artistes </h1>
+		<h1> Pays </h1>
 
 		<?php
 			$servername = 'localhost';
@@ -34,25 +34,19 @@
 		?>
 
 		<?php
-			$str = "SELECT artiste, date FROM concert ORDER BY artiste ASC";
+			$str = "SELECT pays, artiste, date FROM concert ORDER BY pays ASC";
 			$result = mysqli_query($con, $str);
 			while($row = mysqli_fetch_array($result)) 
 			{
-				?>
-				<div class = "affartiste">
-				<?php
 
-					 	echo $row['artiste'] ."  ";
 
-					if ($row['artiste'] != null)
+					 	echo $row['pays'] ."  ";
+
+					if ($row['pays'] != null)
 					{
-						echo $row['date'];
+						echo $row['artiste'] . "  " . $row['date'];
 					}
 					echo "<br/>";
-
-				?>
-				</div>
-				<?php
 			}
 
 		?>	
