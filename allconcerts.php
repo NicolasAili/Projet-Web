@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
 		<link rel="stylesheet" type="text/css" href="css/body/allconcerts.css" media="screen" />	
-		<?php include("salle.php"); // on appelle le fichier?>
+		<?php include("supprimer.php"); // on appelle le fichier?>
 		<meta name="Author" content="BUSQUET_TOURNU" />
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="Recap" />
@@ -58,23 +58,31 @@
 							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
 							<div class="adresse"> <?php echo $row['adresse'] ?> </div>  
 							<div class="cp"> <?php echo  $row['cp'] ?> </div>
-							?>
+							
 						</div>
 						<?php
-						/*echo "success1";
-						if ($_SESSION['pseudo'] == $admin)
-							 {
-							 	echo "success2";
-							 	?>
-									<input  type="submit" value="Supprimer le concert" name="supprimer">
-									</br>
-							 	<?php
-							 }
-						else
-						{
-							echo "success3";
-						}*/
 					}
+					if (isset($_SESSION['pseudo']) != null)
+						{
+		 				?>	
+					 		<form action="supprimer.php" method="post" class="form-example">
+					 			<label for="name">Non d'artiste :  </label> 
+				    			<input type="text" name="artiste" placeholder="Entrer pseudo"   id="prenom" required>
+				    			<br>
+				    			<label for="name">Date du concert :</label> 
+				    			<input type="date" name="date" placeholder="Entrer mdp" id="password" required>
+			      				<br>
+			      				<label for="name">Heure du concert :  </label> 
+				    			<input type="time" name="heure" placeholder="Entrer pseudo"   id="prenom" required>
+				    			<br>
+								<input  type="submit" value="Supprimer le concert" name="supprimer">
+							</form>
+							<br/>
+		 				<?php
+
+		 				}
+						
+					
 				?>
 			</div>
 	</body>
