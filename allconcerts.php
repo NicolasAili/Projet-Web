@@ -62,6 +62,7 @@
 							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
 							<div class="adresse"> <?php echo $row['adresse'] ?> </div> 
 						</div>
+						<div class="supprimer">
 						<?php
 					}
 					if (isset($_SESSION['pseudo']) != null)
@@ -83,6 +84,7 @@
 		 				<?php
 		 				}
 				?>
+						</div>
 			</div>
 	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
