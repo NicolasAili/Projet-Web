@@ -7,7 +7,7 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="inscription" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/body/inscrire.css" media="screen" />
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -38,7 +38,7 @@
       				<br>
 
 	    			<br>
-	    			<label for="cpassword">Confirmer votre mot de passe:  </label> 
+	    			<label for="cpassword">Confirmez votre mot de passe:  </label> 
 	    			<input type="password" name="cpassword" placeholder="Confirmer mdp" id="password" >
 	    			<br>
 

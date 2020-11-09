@@ -1,23 +1,19 @@
 
 h1
 {
-  margin-top: 10%;
+  margin-top: 180px;
 	text-align:center;
   font-family: Georgia, serif;
+  margin-bottom: 30px;
 }
 
-body
-{
-	text-align:center;
-	background-color:#C6C6C6;
-}
 form 
 {  
-  margin-top: 5%;
+  display: inline-block;
+  margin-top: auto;
   margin-left: auto; 
   margin-right: auto;
   padding: 10px;
-  width: 600px;
   border-radius: 15px;
   box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.7),
   2px 4px 40px rgba(255, 255, 255, 0.6) inset;
@@ -25,17 +21,30 @@ form
   color: white;
 }
 
-input 
+.formin
+{
+  width: 100%;
+  text-align: center;
+}
+
+.input x
 {
   border: 1px solid black;
   background-color: #8F8F8F;
   color: white;
 }
+
 select, option 
 {
   background-color:#F3F3F3;
   color: white;
 }
+
+option
+{
+  color: black;
+}
+
 select#details
 {
   margin-left: 3%;
@@ -49,4 +58,17 @@ input.bouton
   text-align: center;
   font-weight: bold;
   padding: 5px;
+}
+
+.connexion
+{
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.form
+{
+  margin-left: 15px;
+  margin-right: 15px;
 }
