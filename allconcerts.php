@@ -49,15 +49,15 @@
 					while($row = mysqli_fetch_array($result)) 
 					{
 						?> 
-						<div id="inwhile"> 
-							<div id="artiste"> <?php echo $row['artiste'] ?> </div>  
-							<div id="date"> <?php echo  $row['date'] ?> </div>  
-							<div id="heure"> <?php echo $row['heure'] ?> </div>  
-							<div id="pays"> <?php echo  $row['pays'] ?> </div> 
-							<div id="ville"> <?php echo $row['ville'] ?> </div>  
-							<div id="salle"> <?php echo  $row['salle'] ?> </div> 
-							<div id="adresse"> <?php echo $row['adresse'] ?> </div>  
-							<div id="cp"> <?php echo  $row['cp'] ?> </div>
+						<div class="inwhile"> 
+							<div class="artiste"> <?php echo $row['artiste'] ?> </div>  
+							<div class="date"> <?php echo  $row['date'] ?> </div>  
+							<div class="heure"> <?php echo $row['heure'] ?> </div>  
+							<div class="pays"> <?php echo  $row['pays'] ?> </div> 
+							<div class="ville"> <?php echo $row['ville'] ?> </div>  
+							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
+							<div class="adresse"> <?php echo $row['adresse'] ?> </div>  
+							<div class="cp"> <?php echo  $row['cp'] ?> </div>
 							?>
 						</div>
 						<?php

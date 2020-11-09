@@ -2,3 +2,55 @@
 {
 	display: flex;
 }
+
+#inwhile
+{
+	display: block;
+}
+
+
+.artiste
+{
+
+}
+
+.date
+{
+
+}
+
+.heure
+{
+
+}
+
+.pays
+{
+
+}
+
+.ville
+{
+
+}
+
+.adresse
+{
+
+}
+
+.adresse
+{
+
+}
+
+.cp
+{
+
+}
+
+.cp, .adresse, .adresse, .ville, .pays, .heure, .date, .artiste
+{
+	background-color: #fff;
+	border: 2px solid grey;
+}
