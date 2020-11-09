@@ -10,7 +10,7 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="Artistes" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/ville.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -36,20 +36,29 @@
 		<?php
 			$str = "SELECT ville, artiste, date FROM concert ORDER BY ville ASC";
 			$result = mysqli_query($con, $str);
-			while($row = mysqli_fetch_array($result)) 
-			{
+			?>
+			<div id="lesvilles">
+				<?php		
+				while($row = mysqli_fetch_array($result)) 
+				{	
+				?>
+				<div class="inwhile">
 
-
-					 	echo $row['ville'] ."  ";
-
-					if ($row['ville'] != null)
-					{
-						echo $row['artiste'] . "  " . $row['date'];
-					}
-					echo "<br/>";
-			}
-
-		?>	
-	</body>
+					<div class="ville"><?php echo $row['ville'] ."  ";?> </div>
+					<?php
+						if ($row['ville'] != null)
+						{
+							?>
+							<div class="artiste"> <?php echo $row['artiste'] ?></div>
+							<div class="date"> <?php echo $row['date']; ?> </div>
+							<?php
+						}
+					?>	
+				</div>
+				<?php
+				}
+				?>
+			</div>
+		</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
