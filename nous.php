@@ -11,8 +11,7 @@
 				<meta name="Keywords" content="ConcertAll" />
 				<meta name="Description" content="Contact" />
 				<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-				<link rel="stylesheet" type="text/css" href="css/body/mention.css" media="screen" />
-				<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />		
+				<link rel="stylesheet" type="text/css" href="css/body/mention.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -28,6 +27,5 @@
 			</p>
 		</div>
 	</body>
-	<?php include('footer.html'); ?>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>

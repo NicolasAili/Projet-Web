@@ -8,7 +8,6 @@
 		<meta name="Description" content="inscription" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
 		<link rel="stylesheet" type="text/css" href="css/body/inscrire.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -48,6 +47,5 @@
 			</div>
 
 		</body>
-	<?php include('footer.html'); ?>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
