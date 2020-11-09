@@ -10,7 +10,7 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="Artistes" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/artiste.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -36,26 +36,31 @@
 		<?php
 			$str = "SELECT artiste, date FROM concert ORDER BY artiste ASC";
 			$result = mysqli_query($con, $str);
+			?>
+			<div id="lesartistes">
+			<?php
 			while($row = mysqli_fetch_array($result)) 
 			{
 				?>
-				<div class = "affartiste">
-				<?php
+				<div class = "inwhile">
+				
+					<div class="artiste"><?php echo $row['artiste'] ."  ";?></div>
 
-					 	echo $row['artiste'] ."  ";
-
+					<?php
 					if ($row['artiste'] != null)
 					{
-						echo $row['date'];
+						?>
+						<div class="date"> <?php echo $row['date'];?></div>
+						<?php
 					}
-					echo "<br/>";
+
 
 				?>
 				</div>
 				<?php
 			}
-
-		?>	
+			?>	
+			</div>
 	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
