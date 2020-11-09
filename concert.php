@@ -4,7 +4,7 @@
 		<title>Recap</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/concert.css" media="screen" />	
 		<?php include("salle.php"); // on appelle le fichier?>
 		<titleC></title>
 		<meta name="Author" content="BUSQUET_TOURNU" />
@@ -50,24 +50,24 @@
 
 				$sql = "INSERT INTO concert (artiste, date, heure, pays, ville, salle, adresse, cp) VALUES ('$artiste', '$date', '$heure', '$pays', '$ville', '$salle', '$adresse', '$cp')";
 				mysqli_query($con, $sql);
-				echo nl2br("Le concert à était ajouté à la base de donné \n \n");
-				echo nl2br("Recapitulatif \n \n");
-				echo  nl2br(" \n Le nom de l'artiste est :");
-				echo $_POST['artiste'];
-				echo  nl2br(" \n La date de concert est le :");
-				echo $_POST['date'];
-				echo  nl2br(" \n Le concert démare à :");
-				echo $_POST['heure'];
-				echo  nl2br(" \n Pays du concert : ");
-				echo $_POST['pays'];
-				echo  nl2br(" \n Ville du concert : ");
-				echo $_POST['ville'];
-				echo  nl2br(" \n Le nom de la salle est :");
-				echo $_POST['salle'];
-				echo  nl2br(" \n L'adresse de la salle est :");
-				echo $_POST['adresse'];
-				echo  nl2br(" \n Le code postal de la salle est :");
-				echo $_POST['cp'];
+				?>
+				<div id="recap">
+					<div class="inwhile">
+						<h1> Récapitulatif : </h1>
+						<div class="artiste"> <?php echo $_POST['artiste']; ?> </div>
+						<div class="dahe">Date et heure</div>
+						<div class="date"> <?php echo $_POST['date']; ?> </div>
+						<div class="heure"> <?php echo $_POST['heure']; ?> </div>
+						<div class="pacp">Pays ville et CP</div>
+						<div class="pays"> <?php echo $_POST['pays']; ?> </div>
+						<div class="ville"> <?php echo $_POST['ville']; ?> </div>
+						<div class="cp"> <?php echo $_POST['cp']; ?> </div>					
+						<div class="saad">Salle et adresse</div>
+						<div class="salle"> <?php echo $_POST['salle']; ?> </div>
+						<div class="adresse"> <?php echo $_POST['adresse']; ?> </div>
+					</div>
+				</div>
+				<?php
 			}
 		?>
 	</body>
