@@ -62,29 +62,39 @@
 							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
 							<div class="adresse"> <?php echo $row['adresse'] ?> </div> 
 						</div>
-						<div class="supprimer">
 						<?php
 					}
 					if (isset($_SESSION['pseudo']) != null)
 						{
 		 				?>	
-					 		<form action="supprimer.php" method="post" class="form-example">
-					 			<label for="name">Non d'artiste :  </label> 
-				    			<input type="text" name="artiste" placeholder="Entrer pseudo"   id="prenom" required>
-				    			<br>
-				    			<label for="name">Date du concert :</label> 
-				    			<input type="date" name="date" placeholder="Entrer mdp" id="password" required>
-			      				<br>
-			      				<label for="name">Heure du concert :  </label> 
-				    			<input type="time" name="heure" placeholder="Entrer pseudo"   id="prenom" required>
-				    			<br>
-								<input  type="submit" value="Supprimer le concert" name="supprimer">
-							</form>
+		 					<div class="supprimer">
+		 						<div class="titre"> Supprimer un concert </div>
+						 		<form action="supprimer.php" method="post" class="form-example">
+						 			<div class="int">
+							 			<label for="name">Non d'artiste :  </label> 
+						    			<input type="text" name="artiste" placeholder="Entrer pseudo"   id="prenom" required>
+						    			<br>
+						    		</div>	
+						    		<div class="int">
+						    			<label for="name">Date du concert :</label> 
+						    			<input type="date" name="date" placeholder="Entrer mdp" id="password" required>
+					      				<br>
+					      			</div>
+					      			<div class="int">
+					      				<label for="name">Heure du concert :  </label> 
+						    			<input type="time" name="heure" placeholder="Entrer pseudo"   id="prenom" required>
+						    			<br>
+						    		</div>
+						    		<div class="intsuppr">
+										<input  type="submit" value="Supprimer le concert" name="supprimer">
+									</div>
+								</form>
+							</div>
 							<br/>
 		 				<?php
 		 				}
 				?>
-						</div>
+						
 			</div>
 	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 

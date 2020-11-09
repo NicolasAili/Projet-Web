@@ -107,4 +107,33 @@
 	position: fixed;
 	top: 300px;
 	right: 300px;
+ 	padding: 10px;
+ 	width: auto;
+ 	border-radius: 15px;
+ 	box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.7),
+ 	2px 4px 40px rgba(255, 255, 255, 0.6) inset;
+ 	background-color:#5c0000;
+ 	color: #fff;
+}
+
+.int
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.intsuppr
+{
+	margin-top: 12px;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.titre
+{
+	font-size: 1.5em;
+	text-decoration: bold;
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 18px;
 }
