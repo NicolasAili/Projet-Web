@@ -10,7 +10,8 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="Artistes" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/body/artiste.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/artiste.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />		
 	</head>
 	<header>
 		<?php include('header.php'); ?>

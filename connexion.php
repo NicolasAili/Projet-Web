@@ -8,6 +8,7 @@
 		<meta name="Description" content="connexion" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
 		<link rel="stylesheet" type="text/css" href="css/body/connexion.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>

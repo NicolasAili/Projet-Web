@@ -4,7 +4,8 @@
 		<title>Recap</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="css/body/concert.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/concert.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />		
 		<?php include("salle.php"); // on appelle le fichier?>
 		<titleC></title>
 		<meta name="Author" content="BUSQUET_TOURNU" />

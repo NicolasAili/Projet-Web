@@ -11,6 +11,7 @@
 		<meta name="Description" content="Prochain Concerts" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="css/body/prochain.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>

@@ -7,7 +7,8 @@
 		<title>Tous les concerts</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="css/body/allconcerts.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/allconcerts.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />		
 		<?php include("supprimer.php"); // on appelle le fichier?>
 		<meta name="Author" content="BUSQUET_TOURNU" />
 		<meta name="Keywords" content="ConcertAll" />
