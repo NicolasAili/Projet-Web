@@ -1,10 +1,13 @@
 body
 {
 	height: 5000px;
-	margin-top: 400;
+	margin-top: 0;
 	background-color: #DBCDC6;
 }
-
+.main
+{
+	margin-top: 180px;
+}
 .imglogo
 {
 	width: 181px;

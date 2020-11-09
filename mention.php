@@ -18,7 +18,7 @@
 
 		<p> 
 			Ce site internet as été crée par Nicolas Busquet et Paul Tournu, ce n'est pas pas un site de vente. </br>
-			Si vous voulez nous joindre pour nimporte quelle raison cliquez <a href=".\contact.html">ICI</a>. </br>
+			Si vous voulez nous joindre pour nimporte quelle raison cliquez <a href=".\contact.php">ICI</a>. </br>
 			Ce site est fait pour trouver et renseigner des concerts selon le cahier des charges nous avons décider de crée les pages suivantes:<br /><br />
 		</p>
 			- une page d'accueil <br />
