@@ -27,5 +27,6 @@
 			</p>
 		</div>
 	</body>
+	<?php include('footer.html'); ?>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>

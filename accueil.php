@@ -10,7 +10,8 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="page d'acceuil" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
-		<link rel="stylesheet" type="text/css" href="css/body/accueil.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/accueil.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -46,4 +47,5 @@
 		</div>
 	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
+	<?php include('footer.html'); ?>
 </html>

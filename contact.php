@@ -65,8 +65,6 @@
 			</p>
 		</form>
 	</body>
-	<footer>
-		<p>Formulaire d'appreciation</p>
-	</footer>
+	<?php include('footer.html'); ?>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
