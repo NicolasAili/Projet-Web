@@ -58,7 +58,6 @@
 							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
 							<div class="adresse"> <?php echo $row['adresse'] ?> </div>  
 							<div class="cp"> <?php echo  $row['cp'] ?> </div>
-							
 						</div>
 						<?php
 					}
