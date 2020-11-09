@@ -19,7 +19,7 @@
 	<body>
 		<h1>Tous les concerts</h1>
 		<?php
-			echo $_SESSION['pseudo'];
+			//echo $_SESSION['pseudo'];
 			echo "</br>";
 			echo "</br>";
 		?>
@@ -41,11 +41,13 @@
 			$str = "SELECT * FROM concert";
 			$result = mysqli_query($con, $str);
 			$admin = 'administateur';
-			echo $_SESSION['pseudo'];
-			echo $admin;
+			//echo $_SESSION['pseudo'];
+			//echo $admin;
 			while($row = mysqli_fetch_array($result)) {
-				echo $row['artiste'] . "  " . $row['date'] . "  " . $row['heure'] . "  " . $row['pays'] . "  " . $row['ville'] . "  " . $row['salle'] . "  " . $row['adresse'] . "  " . $row['cp'] ;
-				echo "success1";
+				?> <div id="artiste"> <?php echo $row['artiste'] ?> </div>  <div id="date"> <?php echo  $row['date'] ?> </div>  <div id="heure"> <?php echo $row['heure'] ?> </div>  <div id="pays"> <?php echo  $row['pays'] ?> </div> <div id="ville"> <?php echo $row['ville'] ?> </div>  <div id="salle"> <?php echo  $row['salle'] ?> </div> <div id="adresse"> <?php echo $row['adresse'] ?> </div>  <div id="cp"> <?php echo  $row['cp'] ?> </div>
+				?>
+				<?php
+				/*echo "success1";
 				if ($_SESSION['pseudo'] == $admin)
 					 {
 					 	echo "success2";
@@ -57,8 +59,7 @@
 				else
 				{
 					echo "success3";
-				}
-
+				}*/
 			}
 		?>
 	</body>
