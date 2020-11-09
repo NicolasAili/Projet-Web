@@ -50,14 +50,17 @@
 					{
 						?> 
 						<div class="inwhile"> 
-							<div class="artiste"> <?php echo $row['artiste'] ?> </div>  
+							<div class="artiste"> <?php echo $row['artiste'] ?> </div> 
+								<div class="dahe">Date et heure</div>
 							<div class="date"> <?php echo  $row['date'] ?> </div>  
 							<div class="heure"> <?php echo $row['heure'] ?> </div>  
+								<div class="pacp">Pays ville et CP</div>
 							<div class="pays"> <?php echo  $row['pays'] ?> </div> 
-							<div class="ville"> <?php echo $row['ville'] ?> </div>  
-							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
-							<div class="adresse"> <?php echo $row['adresse'] ?> </div>  
+							<div class="ville"> <?php echo $row['ville'] ?> </div> 
 							<div class="cp"> <?php echo  $row['cp'] ?> </div>
+								<div class="saad">Salle et adresse</div> 
+							<div class="salle"> <?php echo  $row['salle'] ?> </div> 
+							<div class="adresse"> <?php echo $row['adresse'] ?> </div> 
 						</div>
 						<?php
 					}
@@ -78,10 +81,7 @@
 							</form>
 							<br/>
 		 				<?php
-
 		 				}
-						
-					
 				?>
 			</div>
 	</body>

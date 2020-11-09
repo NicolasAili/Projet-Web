@@ -1,8 +1,7 @@
 #concertsall
 {
-	
-	border: 12px solid red;
 	margin-top: 80px;
+	margin-left: 40%;
 	width: 20%;
 }
 
@@ -11,19 +10,25 @@
 	display: block;
 	background-color: #fff;
 	border: 2px solid grey;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
 
-.artiste
+
+.dahe
 {
-	color: #da1e2c;
-	font-weight: 700;
-	font-size: 1.1em;
+	background-color: #440303;
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: underline;
 }
 
 .date
 {
-
+	color: #da1e2c;
+	font-weight: 900;
+	font-size: 2.5em;
 }
 
 .heure
@@ -31,24 +36,37 @@
 
 }
 
+
+
+.artiste
+{
+	color: #da1e2c;
+	font-weight: 700;
+	font-size: 2.3em;
+	background-color: black;
+	border-bottom: 5px solid blue;
+}
+
+
+
+.pacp
+{
+	background-color: #9f0505;
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
 .pays
 {
-
+	color: #6c6c6c;
 }
 
 .ville
 {
-
-}
-
-.salle
-{
-
-}
-
-.adresse
-{
-
+	color: #6c6c6c;
+	text-decoration: bold;
+	font-size: 1.3em
 }
 
 .cp
@@ -56,7 +74,30 @@
 
 }
 
+
+
+.saad
+{
+	background-color: #e90606;
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.salle
+{
+	color: #6c6c6c;
+}
+
+.adresse
+{
+	color: #6c6c6c;
+}
+
+
+
 .cp, .adresse, .salle, .ville, .pays, .heure, .date, .artiste
 {
-	
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
