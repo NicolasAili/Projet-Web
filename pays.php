@@ -10,7 +10,7 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="Artistes" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/pays.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
@@ -36,20 +36,31 @@
 		<?php
 			$str = "SELECT pays, artiste, date FROM concert ORDER BY pays ASC";
 			$result = mysqli_query($con, $str);
+			?>
+			<div id="lespays">
+				<?php
 			while($row = mysqli_fetch_array($result)) 
 			{
 
+		?> 
+				<div class="inwhile">
 
-					 	echo $row['pays'] ."  ";
-
-					if ($row['pays'] != null)
-					{
-						echo $row['artiste'] . "  " . $row['date'];
-					}
-					echo "<br/>";
+					<div class="pays"><?php	echo $row['pays'] ."  "; ?> </div>
+						<?php
+							if ($row['pays'] != null)
+								{
+						?>
+									<div class="artiste"> <?php echo $row['artiste'] ?></div>
+									<div class="date"> <?php echo $row['date']; ?> </div>
+									<?php
+								}			
+						?>
+				</div>
+				<?php
 			}
 
 		?>	
+	</div>
 	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>
