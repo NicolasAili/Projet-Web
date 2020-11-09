@@ -25,7 +25,7 @@
 				
 			<form action="ident.php" method="post" class="connect">
   				
-	  			 	<label for="pseudo">Pseudo:  </label> 
+	  			 	<label for="pseudo">Pseudo: (16 caractères maximum) </label> 
 	    			<input type="text" name="pseudo" placeholder="Entrer pseudo"   id="prenom" >
 	    			<br>
 	    			<br>

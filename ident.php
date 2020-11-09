@@ -25,35 +25,39 @@ if (isset($_POST['inscription']))
     $cpassword = $_POST['cpassword'];
 
 
+
+
 	if (strcmp($password, $cpassword) == 0)
 	{
-			$sql = "SELECT pseudo FROM utilisateur WHERE pseudo = $pseudo";
-			$result = mysqli_query($con, $sql);
-			if ($result == FALSE)
-			{
-				$sql = "INSERT INTO utilisateur (pseudo, email, password) VALUES ('$pseudo', '$email', '$password')";
-				mysqli_query($con, $sql);
-				header('Location: ./connexion.php');
-			}
-			else{echo'Erreur, l\'utilisateur existe deja';}
+        if (strlen($password) > 8 ) 
+        {
+            if (strlen($pseudo) < 16)
+            {
+    			$sql = "SELECT pseudo FROM utilisateur WHERE pseudo = $pseudo";
+    			$result = mysqli_query($con, $sql);
+    			if ($result == FALSE)
+    			{
+    				$sql = "INSERT INTO utilisateur (pseudo, email, password) VALUES ('$pseudo', '$email', '$password')";
+    				mysqli_query($con, $sql);
+    				header('Location: ./connexion.php');
+    			}
+    			else{echo'Erreur, l\'utilisateur existe deja';}
+            }
+            else 
+            {
+                header("Location: ./inscrire.php?message=Le pseudo ne peut pas faire plus de 16 caractères");
+            }
+
 		}
+        else
+        {
+            header("Location: ./inscrire.php?message=Le mot de passe doit faire plus de 8 caractères");
+        }
+    }
 	else
 		{
 			header("Location: ./inscrire.php?message=Confirmation du mot de passe non valide, réessayer");
 		}
-
-    if (strcmp($password, $cpassword) == 0)
-    {
-            $sql = "SELECT pseudo FROM utilisateur WHERE pseudo = $pseudo";
-            $result = mysqli_query($con, $sql);
-            if ($result == FALSE)
-            {
-                $sql = "INSERT INTO utilisateur (pseudo, email, password) VALUES ('$pseudo', '$email', '$password')";
-                mysqli_query($con, $sql);
-                header('Location: ./connexion.php');
-            }
-            else{echo'Erreur, l\'utilisateur existe deja';}
-        }
-    else{echo'Confirmation du mot de passe non valide, réessayer';}
-
 }
+
+?>
