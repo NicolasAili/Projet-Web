@@ -65,7 +65,7 @@
 			?>
 		</div>
 		<div class="lowernav">
-			<a href=".\prochain.php" class="liun">Prochain concerts</a>	
+			<a href=".\prochain.php" class="liun">Prochain Concerts</a>	
 			<a href=".\artistes.php" class="lideux">Artistes</a>
 			<a href=".\villes.php" class="litrois">Villes</a>
 			<a href=".\pays.php" class="liquatre">Pays</a>
@@ -82,7 +82,7 @@
 		</a>
 	</div>
 	<div class="lowernav">
-		<a href=".\artistes.html" class="liun">Fonctionnement du site</a>	
+		<a href=".\prochain.php" class="liun">Prochain Concerts</a>	
 		<a href=".\artistes.html" class="lideux">Artistes</a>
 		<a href=".\villes.html" class="litrois">Villes</a>
 		<a href=".\pays.html" class="liquatre">Pays</a>
