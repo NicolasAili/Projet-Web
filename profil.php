@@ -10,7 +10,7 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="profil" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="css/formulaire.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/profil.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>

@@ -10,79 +10,40 @@
 		<meta name="Keywords" content="ConcertAll" />
 		<meta name="Description" content="page d'acceuil" />
 		<link rel="stylesheet" type="text/css" href="css/header.css" media="screen" />	
+		<link rel="stylesheet" type="text/css" href="css/body/accueil.css" media="screen" />	
 	</head>
 	<header>
 		<?php include('header.php'); ?>
 	</header>
 	<body>
-		<div class="main">
-		<h1> Objectifs du site </h1>
-		<p> L'objectif de notre site web est de trouver des concerts de hiphop facilement. 
-			Pour cela, chaque personne qui accède au site va pouvoir ajouter un concert, peut importe l'endroit dans le monde, qu'il soit utilisateur ou non. 
-			De plus, notre site propose un état de connexion de façon à pouvoir supprimer des concerts qui ont mal était renseigné, nous faisons confiance à notre communauté. 
-		</p>
-		<br/>
-		<h1>Fonctionnement du site</h1>
-		<p> <h2>Informations sur un concert</h2>
-			Une fois sur la page d'accueil, nous avons plusieurs onglet qui corresponde aux concerts (artiste, pays, ville). Ces onglets vont nous informer des concerts qu'il y a en fonction de la page qu'on choisi. </p>
-
-			<h2>Consulter tous les concerts</h2>
-			<p>Nous pouvons aussi accéder à la pas "Tous les concerts", comme son nom l'indique, cette page référence tous les concerts qui ont été ajouté par notre communauté. </p>
-
-			<h2>Comment ajouter un concert</h2>
-			<p>Pour ajouter un concert il faut cliquer sur le bouton ajouter concert, et celui si va vous rediriger vers un formulaire et vous aurez plus qu'a rensigné les informations necessaire du concert pour l'ajouter.</p>
-
-			<h2>Inscription et connexion au site</h2>
-			<p> Pour s'inscrire c'est simple, vous avez juste à cliquer sur le bouton inscription et remplir le formulaire demandé en respectant les paramètres (exemple : le mot de passe doit contenir au moins 8 caractères). Une fois inscri vous allez être redirigé vers la page de connexion et vous aurez juste à saisir votre pseudo et votre mot de passe.
-			Si vous êtes déjà inscri, cliquez sur le bouton connexion et entré vos identifiants. </p>
-
-			<h2> A savoir </h2>
-			<p> Seul une personne connecté pourra supprimer des concerts qui ont était annulé, repporté, ou seulement mal référencé.</p>
-
-		</div>
-
-	</body>
-		<!--
-		<div class="main">
-			<nav class="index">
-				<ul style="padding-left: 0px">			
-					<li><a href=".\artistes.html">Artistes</a></li>
-					<li><a href=".\villes.html">Villes</a></li>
-					<li><a href=".\pays.html">Pays</a></li>
-					<li><a href=".\concert.html">Tous les concerts</a></li>
-					<li><a href=".\leg.html">Mentions légales</a></li>
-					<li><a href=".\sources.html">Qui sommes-nous ?</a></li>
-				</ul>
-			</nav>
-			<div class="submain">
-				<div class="ajouts">
-					derniers concerts ajout&acute;s
-					<ul>
-						<li> un </li>
-						<li> deux </li>
-						<li> trois </li>
-					</ul>
-				</div>
-				<div class="cadrepos">
-					<div class="txtpro"> Prochainement </div>
-					<div class="prochainement">
-							<li data-num="1"><img src="image/concert1.jpg" alt="" height="300" class="imgli"  />
-	            			<li data-num="2"><img src="image/concert2.jpeg" alt="" height="300" class="imgli" />
-	             			<li data-num="3"><img src="image/concert3.jpg" alt="" height="300" class="imgli" /> 
-					</div>
-				</div>
-				<div class="map">
-					<!--<iframe width=100% height="576" src="https://maphub.net/embed/108114?legend=1&panel=1&panel_closed=1" frameborder="0"></iframe>-->
-					<!--salut biloute
-				</div>
+		<div class="maintxt">
+			<div class="blocun">
+				<h1> Objectifs du site </h1>
+				<p> L'objectif de notre site web est de permettre aux fans de rap indépendant de pouvoir être facilement au courant des concerts futurs au sein de ce milieu.</p>
+				<p>Ce site a pour caractéristique principale d'être communautaire. Cela signifie que ce sont les fans qui font vivre le site, chacun peut -et ce de manière anonyme- renseigner un concert et ainsi aider l'ensemble des utilisateurs.</p>
+				<p>Nous vous invitons néanmoins à créer un compte, cela vous permettra de modifier les annonces qui ont déjà été passées mais qui comportent des erreurs. </p>
+				<p>Bien que le site soit administré, nous faisons entièrement confiance à la communauté. 
+				</p>
+			</div>
+			<div class="blocdeux"> 				
+				<h1>Fonctionnement du site</h1> 
+				<h2>Informations sur un concert</h2> 
+				<p>Depuis la page d'accueil (mais pas que) vous pouvez vous balader sur les différentes rubriques du site, comme afficher les concerts par ville, par pays, par artiste, ou par date.</p> 
+				<h2>Consulter tous les concerts</h2>
+				<p>Vous pouvez aussi accéder à la page "Tous les concerts", qui, comme son nom l'indique, fait référence à tous les concerts qui ont été ajoutés par la communauté. </p>
+			</div>
+			<div class="bloctrois">
+				<h2>Comment ajouter un concert</h2>
+				<p>Pour ajouter un concert il suffit de cliquer sur le bouton du même nom dans la barre en haut du site. Vous serez redirigés vers un formulaire qui vous permettra d'ajouter un concert en renseignant les informations souhaitées</p>
+				<h2>Inscription et connexion au site</h2>
+				<p> L'inscription est simple: il vous suffit de cliquer sur le bouton inscription et remplir le formulaire demandé en respectant les paramètres (exemple : le mot de passe doit contenir au moins 8 caractères). <br>Une fois inscrits, vous serez redirigés vers la page de connexion et il vous suffira alors de vous connecter avec les informations renseignées précédemment.
+				Si vous êtes déjà inscrits, cliquez sur le bouton "connexion" et entrez vos identifiants. </p>
+			</div>	
+			<div class="blocquatre">
+				<h2> A savoir </h2>
+				<p> Seul une personne connectée pourra supprimer des concerts qui ont été annulés, repportés, ou seulement mal référencés.</p>
 			</div>
 		</div>
-		<div class="footer">
-		<footer>
-			Un bug? Une question? Une id&eacute;e d'am&eacute;lioration? <br /> <br/>
-			<a href="mailto:Ailiganon@gmail.com">Envoyez-moi un mail !</a>	
-		</footer>
-	</div>
-	</body>-->
+	</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
 </html>

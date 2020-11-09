@@ -52,7 +52,8 @@
 								<a href="./deconnexion.php" class="spacelink" role="button">Deconnexion</a>
 							</div>
 							<div class="inscription">
-								<a href="./profil.php" class="inscrlink" role="button">Profil de <?php echo $_SESSION['pseudo']; ?>  </a>
+								<div class="mv"></div>
+								<a href="./profil.php" class="inscrlink" role="button">Mon profil</a>
 							</div>
 							<div class=contactimg>
 								<img src="./image/bulle.png" class="imgbulle">
@@ -83,12 +84,12 @@
 	</div>
 	<div class="lowernav">
 		<a href=".\prochain.php" class="liun">Prochain Concerts</a>	
-		<a href=".\artistes.html" class="lideux">Artistes</a>
-		<a href=".\villes.html" class="litrois">Villes</a>
-		<a href=".\pays.html" class="liquatre">Pays</a>
-		<a href=".\concert.html" class="licinq">Tous les concerts</a>
-		<a href=".\leg.html" class="lisix">Qui sommes-nous ?</a>
-		<a href=".\artistes.html" class="lisept">Mentions légales</a>
+		<a href=".\artistes.php" class="lideux">Artistes</a>
+		<a href=".\villes.php" class="litrois">Villes</a>
+		<a href=".\pays.php" class="liquatre">Pays</a>
+		<a href=".\allconcerts.php" class="licinq">Tous les concerts</a>
+		<a href=".\nous.php" class="lisix">Qui sommes-nous ?</a>
+		<a href=".\mention.php" class="lisept">Mentions légales</a>
 	</div>
 	<div class=logos>
 		<?php 
@@ -103,13 +104,13 @@
 			{
 				?>
 				<div class="space-hidden">
-					<a href = "deconnexion.php"><img src="./image/cadenasopen.png" class="imgcadenas-hidden"></a>
+					<a href = "./profil.php"><img src="./image/cadenasopen.png" class="imgcadenas-hidden"></a>
 				</div>
 				<?php
 			}
 		?>
 		<div class=contact-hidden>
-			<a href = "contact.html"> <img src="./image/bulle.png" class="imgbulle-hidden"></a>
+			<a href = "contact.php"> <img src="./image/bulle.png" class="imgbulle-hidden"></a>
 		</div>
 		<div class="haut-hidden">
 			<a href="#top"><img src="./image/up.png" class="up-hidden"></a>
