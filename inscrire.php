@@ -23,8 +23,8 @@
 					}
 				?>
 				
-			<form action="ident.php" method="post" class="connect">
-  				
+			<div class="indentfi">
+				<form action="ident.php" method="post" class="connect">
 	  			 	<label for="pseudo">Pseudo: (16 caractères maximum) </label> 
 	    			<input type="text" name="pseudo" placeholder="Entrer pseudo"   id="prenom" >
 	    			<br>
@@ -35,17 +35,16 @@
 	    			<br>
 	    			<label for="password">Mot de passe: (8 caractères minimum)</label> 
 	    			<input type="password" name="password" placeholder="Entrer mdp" id="password" >
-      				<br>
+	  				<br>
 
 	    			<br>
 	    			<label for="cpassword">Confirmez votre mot de passe:  </label> 
 	    			<input type="password" name="cpassword" placeholder="Confirmer mdp" id="password" >
 	    			<br>
-
 	    			<br>
 					<input  type="submit" value="s'inscrire" name="inscription">
-			
-			</form>
+				</form>
+			</div>
 
 		</body>
 	<script type="text/javascript" src="./js/scrollnav.js"></script> 
