@@ -29,7 +29,13 @@
 }
 
 
-
+.ville
+{
+	background-color: #9f0505;
+	color: #fff;
+	font-size: 1.5em;
+	border-bottom: 3px solid black;
+}
 
 
 .artiste
@@ -37,8 +43,15 @@
 	color: #800000;
 	font-weight: 900;
 	font-size: 2.5em;
+	border-bottom: 4px solid black;
 }
 
+.salle
+{
+	background-color: #440303;
+	color: #fff;
+	font-size: 1.5em;
+}
  .date, .artiste
 {
 	padding-top: 5px;

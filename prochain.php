@@ -34,7 +34,7 @@
 		?>
 
 		<?php
-			$str = "SELECT  date, artiste FROM concert ORDER BY date ASC";
+			$str = "SELECT  date, artiste, ville, salle FROM concert ORDER BY date ASC";
 			$result = mysqli_query($con, $str);
 			?>
 			<div id="prochain">
@@ -51,6 +51,8 @@
 					{
 						?>
 						<div class="artiste"> <?php echo $row['artiste'];?></div>
+						<div class="ville"> <?php echo $row['ville']; ?> </div>
+						<div class="salle"> <?php echo $row['salle']; ?> </div>
 						<?php
 					}
 
